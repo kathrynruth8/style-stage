@@ -1,7 +1,7 @@
-$color-primary: #3a00ff !default;
-$color-primary-alt: #6f6ffd !default;
-$color-secondary: #d42257 !default;
-$color-background: #d2fbf7 !default;
+$color-primary: #f9652c !default;
+$color-primary-alt: #fd8f36 !default;
+$color-secondary: #fec773 !default;
+$color-background: #fde6cd !default;
 
 $brand-colors: (
   primary: $color-primary,
@@ -30,7 +30,7 @@ $colors: map-merge(
 }
 
 @function svgColor($color) {
-  @return "%23" + str-slice("#{color($color)}", 2, -1);
+  @return '%23' + str-slice('#{color($color)}', 2, -1);
 }
 
 $link-color: color(primary) !default;
@@ -58,7 +58,7 @@ $font-sizes: (
   }
 
   --color-anchor: #{$link-color};
-  --font-family: "Baloo 2", sans-serif;
+  --font-family: 'Baloo 2', sans-serif;
   --font-weight-strong: #{$font-weight-strong};
 
   @each $key, $size in $font-sizes {
