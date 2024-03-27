@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
   --color-background: #F6F7F5;
   --color-text: #433F4D ;
@@ -5,13 +12,25 @@
   --color-secondary: #EF912F ;
 }
 
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container {
   text-align: center;
 }
 .container h1 {
   color: var(--color-secondary);
-  font-size: 100px;
+  font-size: 128px;
   margin-bottom: 20px;
+  font-family: "Titan One";
+}
+
+header .container h2 {
+  font-size: 40px;
+  font-family: "Mulish";
 }
 
 .link-github {
@@ -28,6 +47,17 @@
 
 h2, p {
   color: var(--color-text);
+  font-size: 20px;
+  font-family: "Mulish";
+}
+
+body {
+  margin: 0;
+  background-image: url();
+}
+
+a {
+  color: var(--color-secondary);
 }
 
 :root {
@@ -35,6 +65,12 @@ h2, p {
   --color-text: #433F4D ;
   --color-primary: #EDA8D6 ;
   --color-secondary: #EF912F ;
+}
+
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
@@ -69,4 +105,10 @@ nav ul li a {
   --color-text: #433F4D ;
   --color-primary: #EDA8D6 ;
   --color-secondary: #EF912F ;
+}
+
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
