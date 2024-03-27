@@ -1,23 +1,47 @@
+@import 'theme';
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 header {
-  --logomark-height: 3em;
-  --logomark-padding: 0 1em;
-
-  display: grid;
-  min-height: 40vh;
-  place-items: center;
-  padding: 10vh 2rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233a00ff' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d42257' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-position: 0 -38px, 17px -40px;
-  color: var(--color-primary);
-  text-align: center;
-
-  h1 {
-    @include logomark;
-  }
-
-  h2 {
-    max-width: 30ch;
-  }
+    // color: var(--color-primary);
 }
+.container {
+    text-align: center;
+    h1 {
+        color: var(--color-secondary);
+        font-size: 128px;
+        margin-bottom: 20px;
+        font-family: $font-family-header;
+    }  
+}
+header .container h2 {
+    font-size: 40px;
+    font-family: $font-family-body;
+}
+.link-github {
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    padding: 10px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.link-github span svg {
+    width: 2%;
+    
+}
+
+h2, p {
+    color: var(--color-text);
+    font-size: 20px;
+    font-family: $font-family-body;
+}
+
+body {
+    margin: 0;
+    background-image: url();
+}
+
+a {
+    color: var(--color-secondary);
+}
+
