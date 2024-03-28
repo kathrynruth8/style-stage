@@ -1,25 +1,30 @@
 @import 'theme';
 
 nav {
-    background-color: #EDA8D6;
-    position: absolute;
-    top: 0;
-    width: 100%;
+  background-color: #eda8d6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-family: $font-family-body;
+  font-size: 22px;
 }
 nav ul {
-    display: flex;
-    justify-content: right;
-    margin: 0;
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  :hover {
+    background-color: var(--color-background);
+  }
 }
 nav ul li {
-    display: flex;
+  display: flex;
 }
 nav ul li a {
-    padding: 20px;
-    text-decoration: none;
-    color: #433F4D;
+  padding: 20px;
+  text-decoration: none;
+  color: #433f4d;
 }
 
 .container {
-    padding: 10px;
+  padding: 10px;
 }
