@@ -14,7 +14,7 @@ header {
     color: var(--color-secondary);
     font-size: 128px;
     margin-bottom: 20px;
-    font-family: 'Titan One';
+    font-family: $font-family-header;
   }
 }
 header .container h2 {
