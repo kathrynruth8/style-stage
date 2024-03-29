@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 $font-family-body: 'Mulish';
-$font-family-header: 'Titan One';
+// $font-family-header: 'Titan One';
 
 
 :root {
@@ -11,6 +11,7 @@ $font-family-header: 'Titan One';
     --color-text: #433F4D ;
     --color-primary: #EDA8D6 ;
     --color-secondary: #EF912F ;
+    --font-family-header: 'Titan One';
 }
 
 .titan-one-regular {
