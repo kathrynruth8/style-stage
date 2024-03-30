@@ -3,8 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
   --color-background: #f6f7f5;
   --color-text: #433f4d;
@@ -69,52 +67,48 @@ a {
   color: var(--color-secondary);
 }
 
-:root {
-  --color-background: #f6f7f5;
-  --color-text: #433f4d;
-  --color-primary: #eda8d6;
-  --color-secondary: #ef912f;
-}
-
-.titan-one-regular {
-  font-family: "Titan One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40pt;
-}
-
 nav {
-  background-color: #eda8d6;
+  background-color: var(--color-primary);
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   font-family: "Mulish";
   font-size: 22px;
 }
-
 nav ul {
-  display: flex;
-  justify-content: right;
   margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
 }
-nav ul :hover {
-  background-color: var(--color-background);
-}
-
-nav ul li {
-  display: flex;
-}
-
-nav ul li a {
-  padding: 20px;
+nav ul a {
+  display: inline-grid;
+  font-size: 1.25rem;
   text-decoration: none;
+  padding: 10px;
   color: #433f4d;
 }
-
-.container {
-  padding: 10px;
+nav li {
+  padding: 5px;
+}
+nav li :hover {
+  background-color: var(--color-background);
+  border-radius: 20px 0px 20px 0px;
 }
 
+@media (min-width: 992px) {
+  nav ul {
+    display: flex;
+    justify-content: right;
+  }
+  nav ul li {
+    display: flex;
+  }
+  nav ul li a {
+    padding: 20px;
+  }
+}
 :root {
   --color-background: #f6f7f5;
   --color-text: #433f4d;
