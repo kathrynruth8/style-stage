@@ -391,3 +391,15 @@ nav ul li a {
   color: var(--color-text);
   font-size: 22px;
 } /*# sourceMappingURL=style.css.map */
+
+#about > .container:nth-of-type(2) > ul li {
+  background: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 20px 0px 20px 0px;
+  display: inline-block;
+  font-family: 'Mulish';
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  align-items: left;
+} /*# sourceMappingURL=style.css.map */
