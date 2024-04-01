@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
-
   --color-background: #F6F7F5;
   --color-text: #433F4D ;
   --color-primary: #EDA8D6 ;
@@ -69,7 +68,6 @@ a {
   color: var(--color-secondary);
 }
 
-
 nav {
   background-color: var(--color-primary);
   position: absolute;
@@ -112,7 +110,13 @@ nav li :hover {
     padding: 20px;
   }
 }
-
+:root {
+  --color-background: #F6F7F5;
+  --color-text: #433F4D ;
+  --color-primary: #EDA8D6 ;
+  --color-secondary: #EF912F ;
+  --font-family-header: "Titan One";
+}
 
 .titan-one-regular {
   font-family: "Titan One", sans-serif;
@@ -157,7 +161,6 @@ nav li :hover {
   z-index: -1;
 }
 
-
 #guidelines .container {
   background-color: var(--color-secondary);
   border-radius: 50px;
@@ -182,7 +185,8 @@ nav li :hover {
 #guidelines .container p a {
   color: var(--color-background);
   font-weight: bold;
-=======
+}
+
 #about .container:nth-child(2) {
   height: 898px;
 }
@@ -228,5 +232,4 @@ nav li :hover {
   padding: 10px;
   margin: 5px;
   align-items: left;
-
 }
