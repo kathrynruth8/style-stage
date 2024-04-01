@@ -4,11 +4,15 @@
 $font-family-body: 'Mulish';
 $font-family-header: 'Titan One';
 
+
 :root {
-  --color-background: #f6f7f5;
-  --color-text: #433f4d;
-  --color-primary: #eda8d6;
-  --color-secondary: #ef912f;
+
+    --color-background: #F6F7F5;
+    --color-text: #433F4D ;
+    --color-primary: #EDA8D6 ;
+    --color-secondary: #EF912F ;
+    --font-family-header: 'Titan One';
+
 }
 
 .titan-one-regular {
