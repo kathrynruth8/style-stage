@@ -1,0 +1,15 @@
+.page-footer .container p:nth-of-type(2), .page-footer .container p:nth-of-type(3){
+    background-color: var(--color-primary);
+    margin-bottom: 0;
+    background-color: var(--color-primary);
+    margin: 0; 
+    font-size: 15px;
+}
+
+.page-footer .container p:nth-of-type(2) {
+    padding: 1% 1% 0 1%;
+}
+
+.page-footer .container p:nth-of-type(3) {
+    padding: 0 1% 1% 1%;
+}

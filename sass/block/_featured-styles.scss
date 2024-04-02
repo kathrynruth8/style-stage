@@ -1,0 +1,35 @@
+.profile, #styles {
+    float: left;
+    width: calc(50% - 20px); // Adjust margins as needed
+}
+
+.profile .container, #styles .container {
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: 10%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(176, 175, 175, 0.695);
+
+    h4, h2 {
+        color: var(--color-background);
+        font-family: var(--font-family-header);
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    ul {
+        padding-left: 10%;
+    }
+
+    ul li {
+        text-align: left;
+        color: var(--color-background);
+    }
+
+    a {
+        color: var(--color-background);
+    }
+}
+

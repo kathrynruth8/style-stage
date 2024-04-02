@@ -18,6 +18,10 @@
   font-size: 40pt;
 }
 
+body {
+  background-color: var(--color-background);
+}
+
 header {
   background-color: var(--color-background);
 }
@@ -40,16 +44,15 @@ header .container h2 {
   font-family: "Mulish";
 }
 
-.link-github {
+header .container .link-github {
   background-color: var(--color-primary);
   border-radius: 20px;
   padding: 10px;
   color: var(--color-text);
   text-decoration: none;
 }
-
-.link-github span svg {
-  width: 2%;
+header .container .link-github span svg {
+  width: 1%;
 }
 
 h2,
@@ -123,6 +126,10 @@ nav li :hover {
   font-weight: 400;
   font-style: normal;
   font-size: 40pt;
+}
+
+body {
+  background-color: var(--color-background);
 }
 
 #about .container:first-child {
@@ -232,4 +239,100 @@ nav li :hover {
   padding: 10px;
   margin: 5px;
   align-items: left;
+}
+
+.profile, #styles {
+  float: left;
+  width: calc(50% - 20px);
+}
+
+.profile .container, #styles .container {
+  background-color: var(--color-secondary);
+  border-radius: 50px;
+  margin: 10px;
+  margin-left: 10%;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(176, 175, 175, 0.695);
+}
+.profile .container h4, .profile .container h2, #styles .container h4, #styles .container h2 {
+  color: var(--color-background);
+  font-family: var(--font-family-header);
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profile .container ul, #styles .container ul {
+  padding-left: 10%;
+}
+.profile .container ul li, #styles .container ul li {
+  text-align: left;
+  color: var(--color-background);
+}
+.profile .container a, #styles .container a {
+  color: var(--color-background);
+}
+
+.page-footer {
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 644.88"><defs><style> .cls-1 { fill: none; } .cls-2 { fill: url(%23New_Pattern); } .cls-3 { fill: %23ef912f; } </style><pattern id="New_Pattern" data-name="New Pattern" x="0" y="0" width="533.04" height="778.54" patternUnits="userSpaceOnUse" viewBox="0 0 533.04 778.54"><g><rect class="cls-1" width="533.04" height="778.54"/><path class="cls-3" d="m798.14,768.52v-10.31s-270.56,0-270.56,0v13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><g><path class="cls-3" d="m265.11,768.52v-10.31s-270.56,0-270.56,0v13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m263.21,760.02h10.31c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43h-13.66v-270.56h0Z"/><path class="cls-3" d="m527.09,1030.58h10.31s0-270.56,0-270.56h-13.66c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/></g><path class="cls-3" d="m-5.95,1030.58H4.36s0-270.56,0-270.56h-13.66c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/><g><path class="cls-3" d="m527.58,256.2h10.31c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43h-13.66v-270.56h0Z"/><path class="cls-3" d="m799.95,789.08v10.31s-270.56,0-270.56,0v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m799.95,535.51v-10.31h-270.56s0,13.66,0,13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m798.14,243.54v10.31h-270.56v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m798.14-10.02v-10.31s-270.56,0-270.56,0V-6.67c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/></g><g><path class="cls-3" d="m-5.46,256.2H4.85c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43H-5.46v-270.56h0Z"/><path class="cls-3" d="m258.42,524.55h10.31s0-270.56,0-270.56h-13.66c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/><path class="cls-3" d="m266.92,789.08v10.31s-270.56,0-270.56,0v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m266.92,535.51v-10.31H-3.65s0,13.66,0,13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m265.11,243.54v10.31H-5.46v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m265.11-10.02v-10.31s-270.56,0-270.56,0V-6.67c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m537.13,515.4v10.31s-270.56,0-270.56,0v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m537.13,261.84v-10.31s-270.56,0-270.56,0v13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m264.31,523.9h10.31c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43h-13.66v-270.56h0Z"/><path class="cls-3" d="m528.18,794.47h10.31v-270.56s-13.66,0-13.66,0c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/><path class="cls-3" d="m263.21-18.53h10.31c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43h-13.66V-18.53h0Z"/><path class="cls-3" d="m527.09,252.04h10.31s0-270.56,0-270.56h-13.66c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/></g><g><path class="cls-3" d="m4.09,515.4v10.31s-270.56,0-270.56,0v-13.66c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m4.09,261.84v-10.31s-270.56,0-270.56,0v13.66c0,68.17,55.26,123.43,123.43,123.43h20.35c70.02,0,126.78-56.76,126.78-126.78Z"/><path class="cls-3" d="m-4.85,794.47H5.46v-270.56s-13.66,0-13.66,0c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/><path class="cls-3" d="m-5.95,252.04H4.36s0-270.56,0-270.56h-13.66c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/></g><path class="cls-3" d="m799.95,10.54v10.31s-270.56,0-270.56,0V7.19c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><g><path class="cls-3" d="m266.92,10.54v10.31s-270.56,0-270.56,0V7.19c0-68.17,55.26-123.43,123.43-123.43h20.35c70.02,0,126.78,56.76,126.78,126.78Z"/><path class="cls-3" d="m264.31-254.64h10.31c69.97,0,126.78,56.81,126.78,126.78v20.35c0,68.12-55.31,123.43-123.43,123.43h-13.66V-254.64h0Z"/><path class="cls-3" d="m528.18,15.92h10.31V-254.64s-13.66,0-13.66,0c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/></g><path class="cls-3" d="m-4.85,15.92H5.46V-254.64s-13.66,0-13.66,0c-68.17,0-123.43,55.26-123.43,123.43v20.35c0,70.02,56.76,126.78,126.78,126.78Z"/></g></pattern></defs><rect class="cls-2" width="1280" height="644.88"/></svg>');
+  padding-top: 5%;
+  margin-top: 25%;
+}
+
+.page-footer .container {
+  text-align: left;
+}
+.page-footer .container p:nth-of-type(1) {
+  padding: 1%;
+  background-color: var(--color-background);
+  width: 80%;
+  text-align: center;
+  margin-bottom: 0;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.page-footer .container p:nth-of-type(1) a {
+  color: var(--color-primary);
+}
+.page-footer .container ul {
+  padding: 1%;
+  background-color: var(--color-background);
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.page-footer .container ul li a {
+  color: var(--color-text);
+}
+.page-footer .link-github {
+  border-radius: none;
+  background-color: none;
+}
+.page-footer svg {
+  width: 2%;
+}
+.page-footer a {
+  color: var(--color-background);
+}
+
+.page-footer .container p:nth-of-type(2), .page-footer .container p:nth-of-type(3) {
+  background-color: var(--color-primary);
+  margin-bottom: 0;
+  background-color: var(--color-primary);
+  margin: 0;
+  font-size: 15px;
+}
+
+.page-footer .container p:nth-of-type(2) {
+  padding: 1% 1% 0 1%;
+}
+
+.page-footer .container p:nth-of-type(3) {
+  padding: 0 1% 1% 1%;
 }

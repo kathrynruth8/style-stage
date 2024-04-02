@@ -21,17 +21,24 @@ header .container h2 {
   font-size: 40px;
   font-family: $font-family-body;
 }
-.link-github {
-  background-color: var(--color-primary);
-  border-radius: 20px;
-  padding: 10px;
-  color: var(--color-text);
-  text-decoration: none;
+
+
+header {
+    .container {
+        .link-github {
+            background-color: var(--color-primary);
+            border-radius: 20px;
+            padding: 10px;
+            color: var(--color-text);
+            text-decoration: none;
+          }
+        .link-github span svg {
+            width: 1%;
+      }
+    }
+    
 }
 
-.link-github span svg {
-  width: 2%;
-}
 
 h2,
 p {
