@@ -2,14 +2,6 @@
   background: $button;
   color: var(--color-text);
   border-radius: 20px 0px 20px 0px;
-  display: inline-block;
   font-family: $font-family-body;
-  font-size: 30px;
   padding: 10px;
-}
-
-#about > .container:nth-of-type(2) > ul li {
-  @include button(var(--color-primary));
-  margin: 5px;
-  align-items: left;
 }
