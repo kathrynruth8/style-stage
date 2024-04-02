@@ -1,6 +1,5 @@
-@import 'theme';
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
-@import 'button';
+@use 'theme' as *;
+@use 'button';
 header {
   background-color: var(--color-background);
   .container {
@@ -14,18 +13,18 @@ header {
     color: var(--color-secondary);
     font-size: 128px;
     margin-bottom: 1%;
-    font-family: $font-family-header;
+    font-family: var(--font-family-header);
   }
 }
 header .container h2 {
   font-size: 40px;
-  font-family: $font-family-body;
+  font-family: var(--font-family-body);
 }
 
 header {
   .container {
     .link-github {
-      @include button($button: var(--color-primary));
+      @include button.button($button: var(--color-primary));
       color: var(--color-text);
       text-decoration: none;
     }
@@ -39,7 +38,7 @@ h2,
 p {
   color: var(--color-text);
   font-size: 20px;
-  font-family: $font-family-body;
+  font-family: var(--font-family-body);
 }
 
 body {
