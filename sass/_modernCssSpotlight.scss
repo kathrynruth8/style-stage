@@ -1,9 +1,10 @@
+@import 'button';
 #about .container:nth-child(2) {
-  height: 898px;
+  margin-bottom: 5%;
   h2 {
     color: var(--color-text);
     font-size: 60px;
-    margin-top: 200px;
+    margin-top: 5%;
     font-family: $font-family-header;
   }
   h2,
@@ -19,8 +20,8 @@
 }
 
 #about .container:nth-of-type(2) {
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 #about > .container:nth-of-type(2) > p:nth-of-type(2) {
@@ -31,4 +32,15 @@
 #about > .container:nth-of-type(2) > p:nth-of-type(3) {
   font-family: $font-family-header;
   font-size: 25px;
+}
+
+#about > .container:nth-of-type(2) > ul li {
+  @include button(var(--color-primary));
+  margin: 5px;
+  font-size: 30px;
+  display: inline-block;
+  align-items: left;
+}
+#about > .container:nth-of-type(2) > ul {
+  margin: 2% 15% 2% 15%;
 }
