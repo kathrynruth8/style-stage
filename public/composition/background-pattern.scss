@@ -1,0 +1,61 @@
+@mixin theme($image: 'images/settingTheStage.png') {
+  position: relative;
+  background-image: url($image);
+  background-size: cover;
+  background-position: center;
+  height: 898px;
+  z-index: -2;
+  h2 {
+    color: var(--color-text);
+    font-size: 60px;
+    padding-top: 10%;
+    font-family: var(--font-family-header);
+  }
+  h2,
+  p {
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  p {
+    color: var(--color-text);
+    font-size: 22px;
+  }
+}
+
+#about .container:first-child {
+  //   @include theme;
+  //   position: relative;
+  //   background-image: url('images/settingTheStage.png');
+  //   background-size: cover;
+  //   background-position: center;
+  //   height: 898px;
+  //   z-index: -2;
+  //   h2 {
+  //     color: var(--color-text);
+  //     font-size: 60px;
+  //     padding-top: 10%;
+  //     font-family: var(--font-family-header);
+  //   }
+  //   h2,
+  //   p {
+  //     text-align: center;
+  //     padding-left: 8%;
+  //     padding-right: 8%;
+  //   }
+  //   p {
+  //     color: var(--color-text);
+  //     font-size: 22px;
+  //   }
+}
+
+#about .container:first-child::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 10%;
+  background-color: var(--color-background);
+  z-index: -1;
+}

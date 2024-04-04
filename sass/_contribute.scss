@@ -1,46 +1,38 @@
-@import 'button';
-#contribute {
-    background-image: url('images/contribute_backgound.png');
-    padding: 2%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+// @import 'button';
+// #contribute {
 
-    .container {
-        background-color: var(--color-background);
-    }
+// p, h3 {
+//     margin: 0;
+//     text-align: left;
+//     padding-left: 2%;
+// }
+// h3 {
+//     color: var(--color-text);
+//     font-size: 22px;
+//     font-family: var(--font-family-header);
+// }
+// p, li {
+//     padding-bottom: 20px;
+//     text-align: left;
+// }
 
-    p, h3 {
-        margin: 0;
-        text-align: left;
-        padding-left: 2%;
-    }
-    h3 {
-        color: var(--color-text);
-        font-size: 22px;
-        font-family: var(--font-family-header);
-    }
-    p, li {
-        padding-bottom: 20px;
-        text-align: left;
-    }
+// .container h2 {
+//   color: var(--color-text);
+//   font-size: 60px;
+//   font-family: var(--font-family-header);
+//   padding: 2%;
+//   // padding-bottom: 2%;
+//   margin-bottom: 0;
+//   text-align: left;
+// }
+// }
 
-    .container h2 {
-        color: var(--color-text);
-        font-size: 60px;
-        font-family: var(--font-family-header);
-        padding: 2%;
-        // padding-bottom: 2%;
-        margin-bottom: 0;
-        text-align: left;
-        }
-}
+// footer .container{
+//     padding: 30px;
 
-footer .container{
-    padding: 30px;
-
-    // a {
-    //     @include button(var(--color-primary));
-    //     text-decoration: none;
-    //     margin: 10px;
-    // }
-}
+// a {
+//     @include button(var(--color-primary));
+//     text-decoration: none;
+//     margin: 10px;
+// }
+// }

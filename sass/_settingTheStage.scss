@@ -1,10 +1,15 @@
-#about .container:first-child {
+@import 'button';
+@mixin image-theme($image: 'images/settingTheStage.png') {
   position: relative;
-  background-image: url('images/settingTheStage.png');
+  background-image: url($image);
   background-size: cover;
   background-position: center;
   height: 898px;
   z-index: -2;
+}
+
+#about .container:first-child {
+  @include image-theme;
   h2 {
     color: var(--color-text);
     font-size: 60px;
@@ -23,13 +28,66 @@
   }
 }
 
-#about .container:first-child::before {
+#contribute {
+  @include image-theme($image: 'images/contribute_backgound.png');
+  p,
+  h3 {
+    margin: 0;
+    text-align: left;
+    padding-left: 2%;
+  }
+  h3 {
+    color: var(--color-text);
+    font-size: 22px;
+    font-family: var(--font-family-header);
+  }
+  p,
+  li {
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  footer .container {
+    display: flex;
+    a {
+      @include button(var(--color-primary));
+      text-decoration: none;
+      margin: 10px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+  }
+  .container h2 {
+    color: var(--color-text);
+    font-size: 60px;
+    font-family: var(--font-family-header);
+    padding: 2%;
+    // padding-bottom: 2%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+#contribute .container {
+  padding: 0 10% 0 10%;
+}
+#contribute .container:first-child {
+  padding-top: 3%;
+}
+
+@mixin solid-theme() {
   content: '';
+  background-color: var(--color-background);
+  z-index: -1;
   position: absolute;
   top: 10%;
   left: 5%;
   right: 5%;
   bottom: 10%;
-  background-color: var(--color-background);
-  z-index: -1;
+}
+#about .container:first-child::before {
+  @include solid-theme;
+}
+
+#contribute .container:before {
+  @include solid-theme;
 }
